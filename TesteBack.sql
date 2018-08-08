@@ -5,7 +5,7 @@ create table tb_customer_account (
 	cpf_cnpj numeric,
 	nm_customer varchar(20),
 	is_active bit,
-	vl_total float
+	vl_total float,
 	PRIMARY KEY(id_customer)
 );
 
